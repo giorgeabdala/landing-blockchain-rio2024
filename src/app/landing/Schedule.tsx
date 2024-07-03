@@ -10,10 +10,8 @@ export default function Schedule () {
     return (
         <Area className="flex bg-background-via-connect">
 
-            <div className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-8 mt-10 mb-20">
-                <div className="flex text-white items-center justify-center font-background opacity-10 font-black text-5xl md:text-8xl lg:text-9xl">
+            <div className="flex flex-col leading-relaxed items-center justify-center font-body text-justify text-2xl gap-8 mt-10 mb-20">
 
-                </div>
                 <p className="mt-4">Confira as palestras exclusivas da Polkadot Brasil que vão rolar na Blockchain Rio Festival 2024:</p>
 
                 <Workshops />

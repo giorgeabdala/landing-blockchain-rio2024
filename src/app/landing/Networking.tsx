@@ -24,15 +24,16 @@ export default function Networking() {
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 w-auto h-auto">
-                    <Image className="rounded" src="/photos/foto1.jpeg" alt="foto" width={680} height={673}/>
-                    <Image className="rounded" src="/photos/foto2.jpeg" alt="foto" width={680} height={673}/>
-                    <Image className="rounded" src="/photos/foto3.jpeg" alt="foto" width={680} height={673}/>
-                    <Image className="rounded" src="/photos/foto5.jpeg" alt="foto" width={680} height={383}/>
-                    <Image className="rounded" src="/photos/foto6.png" alt="foto" width={680} height={383}/>
-                    <Image className="rounded" src="/photos/foto7.jpeg" alt="foto" width={680} height={383}/>
-                    <Image className="rounded" src="/photos/foto8.png" alt="foto" width={1280} height={720}/>
-                    <Image className="rounded" src="/photos/foto9.jpeg" alt="foto" width={1280} height={720}/>
-                    <Image className="rounded" src="/photos/foto10.jpeg" alt="foto" width={1280} height={720}/>
+
+                    <Image className="rounded-2xl" src="/photos/foto1.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto2.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto3.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto5.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto6.png" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto7.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto8.png" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto9.jpeg" alt="foto" width={300} height={200}/>
+                    <Image className="rounded-2xl" src="/photos/foto10.jpeg" alt="foto" width={300} height={200}/>
                 </div>
             </div>
 
