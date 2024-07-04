@@ -1,7 +1,7 @@
 import Area from "@/app/components/Area";
 import Modals from "@/app/components/Modals";
 import Image from "next/image";
-import blockrio from "/public/photos/BlockRio1.png";
+import blockrio from "public/nfts/nftFisica.png";
 
 
 
@@ -11,7 +11,7 @@ export default function Ticket() {
             <div className="mx-32 mr-56 mt-36 mb-20">
                 <div id="ticket"
                      className="grid grid-cols-1 lg:grid-cols-3  justify-items-center lg:justify-items-start">
-                    <Image className="w-auto h-auto max-w-xs lg: items-start" src={blockrio}
+                    <Image className="w-auto h-auto rounded-2xl max-w-xs lg: items-start" src={blockrio}
                            alt={"logo da Blockchain Festival"}/>
                     <div className="flex justify-center mt-20 lg:mt-0 lg:col-span-2">
                         <div
