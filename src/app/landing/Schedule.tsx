@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Schedule () {
     return (
-        <Area className="flex bg-background-via-connect">
+        <Area className="flex bg-background-primary">
 
             <div className="flex flex-col leading-relaxed items-center justify-center font-body text-justify text-2xl gap-8 mt-10 mb-20">
 

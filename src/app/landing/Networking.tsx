@@ -1,6 +1,7 @@
 import Area from "@/app/components/Area";
 import Menu from "@/app/components/Menu";
 import Image from "next/image";
+import CarouselFlowBite from "@/app/components/Carousel";
 
 
 export default function Networking() {
@@ -8,12 +9,14 @@ export default function Networking() {
 
         <Area className="bg-background-primary">
             <div
-                className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24">
+                className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24 mt-40">
 
                 <div
                     className="flex font-background text-polkadot-rose   opacity-80 font-bold text-xl lg:text-5xl md:text-4xl">
                     <p>O QUE É O BLOCKCHAIN RIO?</p>
                 </div>
+
+
 
 
                 <div className="flex">
@@ -23,18 +26,9 @@ export default function Networking() {
                         brasileiro. </p>
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 w-auto h-auto">
+                <CarouselFlowBite />
 
-                    <Image className="rounded-2xl" src="/photos/foto1.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto2.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto3.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto5.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto6.png" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto7.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto8.png" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto9.jpeg" alt="foto" width={300} height={200}/>
-                    <Image className="rounded-2xl" src="/photos/foto10.jpeg" alt="foto" width={300} height={200}/>
-                </div>
+
             </div>
 
         </Area>

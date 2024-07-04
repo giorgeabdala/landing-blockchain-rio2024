@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Logo() {
     return (
-        <Area className="bg-background-header">
+        <Area className="bg-background-via-connect">
             <div className="flex flex-col items-center justify-center ">
                 {/* eslint-disable-next-line react/jsx-no-undef */}
                 <Image src="/logo_transparent.png" alt="logotipo da comunidade Polkadot Brasil" width={500} height={500} />

@@ -36,7 +36,8 @@ const config: Config = {
     },
   },
   plugins: [require('daisyui'),
-    require('flowbite/plugin')],
+    require("flowbite/plugin")],
+
   darkMode: ['class', '[data-mode="dark"]'],
 }
 export default config

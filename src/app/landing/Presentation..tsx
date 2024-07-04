@@ -9,7 +9,7 @@ interface PresentationProps {
 
 export default function Presentation(props: PresentationProps) {
     return (
-        <Area className="bg-background-header">
+        <Area className="bg-background-via-connect">
             <div id="start" className={`flex flex-col items-center justify-center 
             text-2xl text-white font-title  gap-8`}>
                 <h2 className="text-zinc-400">Blockchain Rio 2024</h2>
