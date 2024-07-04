@@ -9,6 +9,7 @@ import Footer from "@/app/landing/Footer";
 import LastYear from "@/app/landing/LastYear";
 import Discover from "@/app/landing/Discover";
 import DiscoverTwo from "@/app/landing/DiscoverTwo";
+import Hunter from "@/app/landing/Hunter";
 
 
 
@@ -20,10 +21,12 @@ export default function Landing() {
             <Presentation />
             <Networking />
             <LastYear />
-            <Discover />
             <DiscoverTwo />
+            <Discover />
+
             {/*<Schedule />*/}
             <Ticket />
+            <Hunter />
             <Footer />
         </Pagina>
     )

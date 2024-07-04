@@ -1,38 +1,23 @@
 import Area from "@/app/components/Area";
+import Image from 'next/image';
 import Modals from "@/app/components/Modals";
-import Image from "next/image";
-import blockrio from "public/nfts/nftFisica.png";
-
-
+import blockrio from "public/BINR.jpeg";
 
 export default function Ticket() {
     return (
         <div className="bg-background-via-connect">
-            <div className="mx-32 mr-56 mt-36 mb-20">
-                <div id="ticket"
-                     className="grid grid-cols-1 lg:grid-cols-3  justify-items-center lg:justify-items-start">
-                    <Image className="w-auto h-auto rounded-2xl max-w-xs lg: items-start" src={blockrio}
-                           alt={"logo da Blockchain Festival"}/>
-                    <div className="flex justify-center mt-20 lg:mt-0 lg:col-span-2">
-                        <div
-                            className="flex flex-col  justify-center font-body text-justify leading-loose text-2xl text-zinc-100 gap-4">
-
-                            <p>
-                                <span className="font-bold">Garanta Seu Passaporte</span> para a Blockchain Rio Festival 2024 e tenha a chance de
-                                estar no coração das discussões sobre blockchain tecnologia e inovação.
-                            </p>
-                            <p>Para obter seu passaporte clique no botão abaixo e siga as instruções na próxima
-                                tela. </p>
-                            <div className="flex justify-center mt-8">
-                                <Modals/>
-                            </div>
-                        </div>
+            <div className="flex flex-col lg:flex-row items-center justify-center font-body text-justify text-2xl gap-8 my-44 mx-10">
+                <div className="leading-loose mr-20">
+                    <p><span className="font-bold">Garanta Seu Passaporte</span> para a Blockchain Rio Festival 2024 e tenha a chance de estar no coração das discussões sobre blockchain, tecnologia e inovação.</p>
+                    <p>Para obter seu passaporte, clique no botão abaixo e siga as instruções na próxima tela.</p>
+                    <div className="flex justify-center mt-8">
+                        <Modals />
                     </div>
+                </div>
+                <div className="flex items-center justify-center mr-60 ">
+                    <Image className="rounded-2xl" src={blockrio} alt="logo da Blockchain Festival" />
                 </div>
             </div>
         </div>
-
-    )
-
-
+    );
 }
