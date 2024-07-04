@@ -22,7 +22,7 @@ export default function DiscoverTwo() {
 
                 </div>
 
-                <Image src="/asset.png" alt="imagem dos palestrantes da blockchain Rio" width={571} height={606} />
+                <Image  src="/asset.png" alt="imagem dos palestrantes da blockchain Rio" width={571} height={606} />
 
             </div>
 

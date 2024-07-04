@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://polkadot.com.br'),
+    metadataBase: new URL('https://polkadotbrasil.com/'),
   title: 'Polkadot Brasil - Blockchain Rio 2024',
   description: 'Polkadot Brasil te leva para a Blockchain Rio 2024',
 
