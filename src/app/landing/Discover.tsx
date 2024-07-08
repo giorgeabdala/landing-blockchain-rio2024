@@ -8,7 +8,7 @@ export default function Discover() {
             <div
                 className="flex flex-col lg:flex-row items-center justify-center font-body text-justify text-2xl gap-8 my-24 mx-8 lg:mx-32">
                 {/* eslint-disable-next-line react/jsx-no-undef */}
-                <Image src="/asset6.png" alt="imagem dos palestrantes da blockchain Rio" width={571} height={606} />
+                <Image className="rounded-full" src="/asset6.png" alt="imagem dos palestrantes da blockchain Rio" width={571} height={606} />
 
                 <div className="leading-relaxed xl:leading-loose 2xl:mx-24">
                     <p className="xl:hidden">

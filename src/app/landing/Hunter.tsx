@@ -9,7 +9,7 @@ export default function Hunter() {
             <div className="mx-32 my-36">
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center lg:justify-items-start items-center font-body">
                     <div className="flex items-center justify-center">
-                        <Image className="rounded-2xl max-w-xs" src={blockrio} alt="logo da Blockchain Festival" />
+                        <Image className="rounded-3xl max-w-xs" src={blockrio} alt="logo da Blockchain Festival" />
                     </div>
                     <div className="flex flex-col items-center justify-center mt-20 lg:mt-0 lg:col-span-2">
                         <p className="font-bold text-3xl text-center text-polkadot-rose">Caça ao Tesouro Polkadot Brasil no Blockchain Rio 2024</p>

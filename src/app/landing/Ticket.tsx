@@ -14,8 +14,10 @@ export default function Ticket() {
                         <Modals />
                     </div>
                 </div>
-                <div className="flex items-center justify-center mr-44 ">
-                    <Image className="rounded-2xl " src={blockrio} alt="logo da Blockchain Festival" />
+                <div className="flex items-center justify-center ">
+                    <div style={{ width: "600px", height: "400px" }}>
+                        <Image className="rounded-full" src={blockrio} alt="logo da Blockchain Festival" layout="responsive" width={600} height={400} />
+                    </div>
                 </div>
             </div>
         </div>
