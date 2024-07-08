@@ -16,7 +16,7 @@ export default function ButtonDefault(props: ButtonProps) {
                 {...buttonProps} // Todas as propriedades do botão serão passadas aqui
                 className={clsx(
                     className,
-                    'rounded-full',
+                    'rounded-2xl',
                     'btn',
                     'bg-polkadot-rose',
                     'text-white',

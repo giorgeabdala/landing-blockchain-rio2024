@@ -18,10 +18,11 @@ export default function Landing() {
     return (
         <Pagina className="flex flex-col text-white">
             <Logo />
-            <Presentation />
+            {/*<Presentation />*/}
             <Networking />
-            <LastYear />
             <DiscoverTwo />
+            <LastYear />
+
             <Discover />
 
             {/*<Schedule />*/}

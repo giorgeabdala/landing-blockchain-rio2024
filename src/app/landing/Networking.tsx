@@ -7,17 +7,14 @@ import CarouselFlowBite from "@/app/components/Carousel";
 export default function Networking() {
     return (
 
-        <Area className="bg-background-primary">
+        <Area className="bg-background-via-connect">
             <div
-                className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24 mt-40">
+                className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24 mt-28">
 
                 <div
-                    className="flex font-background text-polkadot-rose   opacity-80 font-bold text-xl lg:text-5xl md:text-4xl">
+                    className="flex font-background text-polkadot-rose font-bold text-xl lg:text-5xl md:text-4xl">
                     <p>O QUE É O BLOCKCHAIN RIO?</p>
                 </div>
-
-
-
 
                 <div className="flex">
                     <p> O Blockchain.RIO é a representação do maior e principal hub de inovação em tecnologia blockchain

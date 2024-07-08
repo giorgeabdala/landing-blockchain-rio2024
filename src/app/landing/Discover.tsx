@@ -16,7 +16,7 @@ export default function Discover() {
                         networking, negócios e aprendizado com empresas, desenvolvedores e autoridades.
                     </p>
 
-                    <p className="hidden xl:block">O evento contará com líderes, especialistas e educadores focados na economia tokenizada,
+                    <p className="hidden xl:block"><span className="font-bold">O evento contará com líderes,</span> especialistas e educadores focados na economia tokenizada,
                         oferecendo oportunidades de networking, geração de negócios e aprendizagem colaborativa.
                         O festival reunirá empresas, desenvolvedores, acadêmicos e autoridades para acelerar o
                         desenvolvimento do ecossistema.</p>

@@ -15,8 +15,8 @@ export default function Presentation(props: PresentationProps) {
                 <h2 className="text-zinc-400">Blockchain Rio 2024</h2>
                 <h2>24 e 25 de Julho</h2>
                 <div className="flex flex-col text-center  leading-relaxed gap-4 font-body">
-                    <p>Preparado para mergulhar em um universo de tecnologia e inovação?</p>
-                    <p>Garanta aqui seu Passaporte Gratuito para o Futuro: A Blockchain Rio Festival te Espera! 🚀</p>
+                    <p>Pronto para explorar um mundo de tecnologia e inovação?</p>
+                    <p>Garanta seu Passaporte Gratuito para o Futuro: Venha para o Blockchain Rio Festival! 🚀</p>
                 </div>
 
 
