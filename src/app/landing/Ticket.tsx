@@ -5,7 +5,7 @@ import blockrio from "public/BINR.jpeg";
 
 export default function Ticket() {
     return (
-        <div className="bg-background-via-connect" id="ticket">
+        <div className="bg-gradient-to-b from-background-blockchain-rio to-background-via-connect" id="ticket">
             <div className="flex flex-col lg:flex-row items-center justify-center font-body text-justify text-2xl gap-8 my-52 mx-32">
                 <div className="leading-loose mr-20">
                     <p><span className="font-bold">Garanta Seu Passaporte</span> para a Blockchain Rio Festival 2024 e tenha a chance de estar no coração das discussões sobre blockchain, tecnologia e inovação.</p>

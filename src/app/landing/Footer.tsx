@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
 
     return (
-        <Area className="bg-background-primary">
+        <Area className=" bg-background-primary">
 
             <div id="footer" className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-20 mb-20">
                 <div id="contatos" className="flex flex-col gap-4 text-gray-400">

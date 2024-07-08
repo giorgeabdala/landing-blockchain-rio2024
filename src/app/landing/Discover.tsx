@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Discover() {
     return (
-        <div className="bg-background-via-connect">
+        <div className="bg-gradient-to-b from-background-via-connect to-background-blockchain-rio">
             <div
                 className="flex flex-col lg:flex-row items-center justify-center font-body text-justify text-2xl gap-8 my-24 mx-8 lg:mx-32">
                 {/* eslint-disable-next-line react/jsx-no-undef */}

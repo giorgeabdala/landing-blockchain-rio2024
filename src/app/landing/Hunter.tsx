@@ -5,7 +5,7 @@ import blockrio from "public/nfts/nftFisica.png";
 
 export default function Hunter() {
     return (
-        <div className="bg-background-via-connect">
+        <div className="bg-gradient-to-b from-background-via-connect to-background-primary">
             <div className="mx-32 my-36">
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center lg:justify-items-start items-center font-body">
                     <div className="flex items-center justify-center">

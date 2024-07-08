@@ -20,6 +20,9 @@ const config: Config = {
           'header': '#1A1A1A',
           'via-connect': '#16111B',
           'blockchain-rio': '#222222',
+          'gradient-init': '#2c173b',
+          'gradient-via': '#1b0e24'
+
         }
         ,
       } ,
