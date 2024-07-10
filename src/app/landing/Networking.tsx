@@ -7,7 +7,7 @@ import CarouselFlowBite from "@/app/components/Carousel";
 export default function Networking() {
     return (
 
-        <Area className="bg-background-via-connect">
+        <Area className="bg-gradient-to-b  from-black   to-background-via-connect">
             <div
                 className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24 mt-28">
 
