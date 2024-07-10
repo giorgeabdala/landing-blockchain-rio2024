@@ -5,7 +5,7 @@ import ButtonDefault from "@/app/components/Button";
 
 export default function Logo() {
     return (
-        <div className="bg-gradient-to-b  from-background-gradient-init via-background-gradient-via  to-background-via-connect">
+        <div className="bg-gradient-to-b  from-background-blockchain-rio via-background-gradient-via  to-background-via-connect">
             <div className="flex flex-row items-center justify-center my-24 mx-10">
                 <div className="flex justify-center flex-1">
                     <Image className="rounded-full" src="/logo_transparent.png" alt="logotipo da comunidade Polkadot Brasil" width={600} height={500} />
