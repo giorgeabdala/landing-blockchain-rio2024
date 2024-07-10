@@ -21,7 +21,8 @@ const config: Config = {
           'via-connect': '#16111B',
           'blockchain-rio': '#222222',
           'gradient-init': '#190924',
-          'gradient-via': '#1b0e24'
+          'gradient-via': '#1b0e24',
+          'polkablock': '#343638',
 
         }
         ,
