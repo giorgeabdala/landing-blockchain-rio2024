@@ -12,7 +12,7 @@ export default function Networking() {
                 className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-12 my-24 mt-28">
 
                 <div
-                    className="flex font-background text-polkadot-rose font-bold text-xl lg:text-5xl md:text-4xl">
+                    className="flex font-background  from-polkadot-rose via-pink-500 to-polkadot-rose font-bold text-xl lg:text-5xl md:text-4xl">
                     <p>O QUE É O BLOCKCHAIN RIO?</p>
                 </div>
 

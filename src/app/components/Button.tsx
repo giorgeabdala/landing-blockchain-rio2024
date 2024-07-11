@@ -22,9 +22,7 @@ export default function ButtonDefault(props: ButtonProps) {
                     'text-white',
                     'hover:opacity-80',
                     'hover:bg-polkadot-rose',
-                    'text-xl',
-                    'px-8',
-                    'py-2',
+
 
 
                 )}

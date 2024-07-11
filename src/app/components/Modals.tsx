@@ -12,6 +12,8 @@ export default function Modals() {
     return (
         <div>
             <ButtonDefault
+                className=" px-8 py-2 shadow-lg text-xl bg-gradient-to-r from-polkadot-rose via-pink-500 to-polkadot-rose
+                transition-transform duration-300 transform hover:scale-105"
                 text="Garanta seu passaporte"
                 onClick={() => setTwitterModal(true)}
             />
