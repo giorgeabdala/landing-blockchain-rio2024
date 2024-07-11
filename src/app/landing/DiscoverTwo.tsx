@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function DiscoverTwo() {
     return (
-        <div className="bg-gradient-to-b from-background-via-connect to-background-primary">
+        <div className="bg-gradient-to-b  from-black   to-background-via-connect">
             <div
                 className="flex flex-col lg:flex-row items-center justify-center font-body text-justify text-2xl gap-8 my-24 mx-10 mr-56 ">
                 {/* eslint-disable-next-line react/jsx-no-undef */}

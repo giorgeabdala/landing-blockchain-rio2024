@@ -21,7 +21,12 @@ export default function ButtonDefault(props: ButtonProps) {
                     'bg-polkadot-rose',
                     'text-white',
                     'hover:opacity-80',
-                    'hover:bg-polkadot-rose'
+                    'hover:bg-polkadot-rose',
+                    'text-xl',
+                    'px-8',
+                    'py-2',
+
+
                 )}
             >
                 <span hidden={props.displaySpinner}>
