@@ -1,20 +1,23 @@
 import {NextResponse} from "next/server";
 import WhatsAppNotificationServiceCodeChat from "@/app/api/infra/WhatsService";
-const message = "Parabéns!!! \n" +
+const message = "*Parabéns!*\n" +
     "\n" +
-    "Você acaba de ganhar 100% de desconto para um ingresso individual para o evento.\n" +
+    "Você ganhou 100% de desconto para um ingresso individual para o evento.\n" +
     "\n" +
-    "Já fizemos a reserva do seu passaporte, mas para emitir o voucher ainda é necessário realizar seu cadastro no Sympla. \n" +
-    "Não se preocupe, esse é o último passo, tá?\n" +
+    "Seu passaporte já está reservado. Agora, só falta realizar seu cadastro no Sympla para emitir o voucher.\n" +
     "\n" +
-    "Acesse o link abaixo, e no card de \"Inscrições\" selecione \"individual\". \n" +
-    "Preencha o formulário que irá aparecer e clique em finalizar.\n" +
-    "https://www.sympla.com.br/blockchain-rio__2065562?d=Polkadot_te_leva\n" +
+    "*Temos 3 tipos de ingressos disponíveis*, escolha qual deseja, acesse o link e selecione a opção com valor \"Gratis\" no Sympla:\n" +
     "\n" +
+    "*Passaporte Expo Mag + Lounge Premium:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_Premium_Blockchain.Rio\n" +
     "\n" +
-    "O Blockchain Festival é a porta de entrada para o epicentro da inovação digital, de 12 a 14 de setembro, no Rio de Janeiro você está convidado a se unir à vanguarda tecnológica, onde as mentes mais brilhantes se reúnem para dar forma ao futuro.\n" +
+    "*Passaporte Casa Camolese + Lounge Expo Mag:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_BlockchainLeaders\n" +
     "\n" +
-    "Esperamos você lá! ";
+    "*Passaporte Expo Mag:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_Blockchain.Rio\n" +
+    "\n" +
+    "O Blockchain Festival acontece de 23 a 25 de Julho, no Rio de Janeiro.\n" +
+    "\n" +
+    "Esperamos você lá!";
+
 
 
 export async function POST(req: Request, res: Response) {
