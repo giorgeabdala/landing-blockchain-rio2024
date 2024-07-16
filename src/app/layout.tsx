@@ -12,16 +12,16 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Polkadot Brasil - Blockchain Rio 2024',
         description: 'Polkadot Brasil te leva para a Blockchain Rio 2024',
-        url: 'https://polkadot.com.br',
+        url: 'https://polkadotbrasil.com',
         siteName: 'Polkadot Brasil',
       images: [
           {
-              url: 'https://polkadot.com.br/twitter-image.png',
+              url: 'https://polkadotbrasil.com/twitter-image.png',
               width: 800,
               height: 600,
           },
           {
-                url: 'https://polkadot.com.br/opengraph-image.png',
+                url: 'https://polkadotbrasil.com/opengraph-image.png',
               width: 1800,
               height: 1200,
           }
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Polkadot Brasil - Blockchain Rio 2024',
         description: 'Polkadot Brasil te leva para a Blockchain Rio 2024',
-        images: ['https://polkadot.com.br/twitter-image.png'],
+        images: ['https://polkadotbrasil.com/twitter-image.png'],
     } ,
 }
 
