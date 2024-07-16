@@ -19,11 +19,6 @@ export const metadata: Metadata = {
                 width: 800,
                 height: 600,
             },
-            {
-                url: 'https://polkadotbrasil.com/opengraph-image.png',
-                width: 1800,
-                height: 1200,
-            }
         ],
         locale: 'pt_BR',
         type: 'website',
@@ -54,9 +49,6 @@ export default function RootLayout({
             <meta property="og:image" content="https://polkadotbrasil.com/twitter-image.png" />
             <meta property="og:image:width" content="800" />
             <meta property="og:image:height" content="600" />
-            <meta property="og:image" content="https://polkadotbrasil.com/opengraph-image.png" />
-            <meta property="og:image:width" content="1800" />
-            <meta property="og:image:height" content="1200" />
 
             {/* Metadados para Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
