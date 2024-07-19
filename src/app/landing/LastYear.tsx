@@ -5,7 +5,7 @@ export default function LastYear() {
     return (
         <Area className="bg-gradient-to-b from-background-via-connect to-background-primary">
             <div
-                className="flex flex-col items-center justify-center font-body font-bold ext-justify text-2xl gap-8 mt-16 mb-28 text-polkadot-rose">
+                className="flex flex-col items-center justify-center font-body font-bold ext-justify text-xl lg:text-2xl gap-8 mt-16 mb-28 text-polkadot-rose">
                 <p className="hidden md:block">CONFIRA COMO FOI A ÚLTIMA EDIÇÃO</p>
                 <p className="md:hidden">CONFIRA A ÚLTIMA EDIÇÃO</p>
                 <div className="mt-8 hidden lg:block">
