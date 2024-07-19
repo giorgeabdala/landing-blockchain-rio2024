@@ -6,11 +6,8 @@ const message = "*Parabéns!*\n" +
     "\n" +
     "Seu passaporte já está reservado. Agora, só falta realizar seu cadastro no Sympla para emitir o voucher.\n" +
     "\n" +
-    "*Temos 3 tipos de ingressos disponíveis*, escolha qual deseja, acesse o link e selecione a opção com valor \"Gratis\" no Sympla:\n" +
+    "*Acesse o link abaixo e selecione a opção com valor \"Gratis\" no Sympla:\n" +
     "\n" +
-    "*Passaporte Expo Mag + Lounge Premium:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_Premium_Blockchain.Rio\n" +
-    "\n" +
-    "*Passaporte Casa Camolese + Lounge Expo Mag:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_BlockchainLeaders\n" +
     "\n" +
     "*Passaporte Expo Mag:* https://www.sympla.com.br/evento/blockchain-rio-2024/2385509?d=Polkadot_Blockchain.Rio\n" +
     "\n" +
